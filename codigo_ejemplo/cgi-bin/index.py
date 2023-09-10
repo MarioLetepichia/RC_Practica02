@@ -5,8 +5,10 @@ print ("Content-type: text/html")
 print
 
 print ("""
-Hola Mundo
+Hola Mundo Cruel!
 """)
+
+print ("https://youtu.be/YDpNRw5geSA")
 
 form=cgi.FieldStorage()
 print ("<p>user:", form["user"].value)
